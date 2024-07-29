@@ -1,0 +1,45 @@
+.botao-inscrever{
+    background-color: blue;
+}
+Aqui estão algumas dicas de como usar a propriedade border:
+
+Escreva menos código
+Utilizando apenas a propriedade border, é possível aplicar três valores:
+
+border: 30px solid blue;
+O código acima é uma forma abreviada de escrever os mesmos valores abaixo:
+
+border-width: 30px; // Estiliza a sua largura
+border-style: solid; // Estiliza seu estilo
+border-color:  blue; // Estiliza sua cor
+
+Utilizamos essa propriedade para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo. Para isso, basta atribuir a cor desejada à propriedade background-color, declarada dentro do seletor no qual ela deve ser aplicada.
+
+Exemplos de uso:
+
+/* Plano de fundo em vermelho e opacidade de 50% */
+background-color: rgba(255,0,0,0.5);
+Run
+Nesse exemplo utilizamos a função RGBA das CSS para definir o vermelho com uma transparência como cor de fundo.
+
+background-image
+Esta propriedade é utilizada para inserir imagens como plano de fundo de um elemento. Para isso, fazemos uso da função url(), para a qual passamos como parâmetro o caminho da imagem a ser inserida.
+
+Por padrão, a imagem é inserida no canto superior esquerdo e repetida na vertical e na horizontal até que tenha preenchido 100% do corpo do elemento. Porém, podemos customizar esse e outros comportamentos com as propriedades que veremos a seguir.
+
+Exemplo de uso:
+
+background-image: url("pasta/Imagem.jpg");
+Run
+Neste exemplo será renderizada uma imagem com extensão .JPG, mas nada impede que seja uma imagem com extensão diferente, desde que suportado pelo CSS. Além disso, é importante destacar que por se tratar de uma URL podemos indicar tanto o caminho de uma imagem local, quando de uma hospedada em um servidor externo. As aspas na URL são necessárias quando há espaços em branco no caminho
+
+A propriedade font-sizeno CSS estabelece o tamanho da fonte.
+
+Esta propriedade também é usada para calcular o tamanho de em, ex, e outras unidades <length>relacionadas.
+
+Arredondar borda
+border-radius:15%
+
+
+
+
